@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="51" viewBox="0 0 107 51">
+  <defs>
+    <filter id="Project" x="0" y="0" width="107" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#3d96a2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Project)">
+    <text id="Project-2" data-name="Project" transform="translate(9 33)" fill="rgba(112,112,112,0.82)" font-size="28" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Project</tspan></text>
+  </g>
+</svg>
