@@ -179,9 +179,7 @@ ul.footer-links li a {
     width: 100%;
     background-color: #3d444a;
     margin-top: -2%;
-    padding: 2em;
-}
-    
+    padding: 2em 0;
 }
 nav ul {
     position: fixed; /*門簾*/
