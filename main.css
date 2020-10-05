@@ -47,10 +47,10 @@ h1, .subhead {
     font-size: 16px;
 }
 /*imgsFrame - Fix imgs different size*/
-.imgsFrame {
+/*.imgsFrame {
     width: 155px;
     height: 210px;
-}
+}*/
 
 .blue-container {
     width: 100%;
