@@ -46,6 +46,11 @@ h1, .subhead {
 .subhead {
     font-size: 16px;
 }
+/*imgsFrame - Fix imgs different size*/
+.imgsFrame {
+    width: 155px;
+    height: 210px;
+}
 
 .blue-container {
     width: 100%;
@@ -171,9 +176,11 @@ ul.footer-links li a {
     font-size: .8em;
 }
 .gray-container{
+    width: 100%;
     background-color: #3d444a;
-    margin-top: -3%;
-    padding: 1em;
+    margin-top: -2%;
+    padding: 2em;
+}
     
 }
 nav ul {
@@ -207,7 +214,7 @@ nav ul li a:hover {
 .exit-btn img {
     width: 30px;
     cursor: pointer;
-    margin-right: 1em;
+    margin-right: .5em;
 }
 
 @media only screen and (min-width: 650px) {
@@ -260,7 +267,7 @@ nav ul li a:hover {
         margin: 4% 0 0 0;
     }
     .green-container {
-        margin: -6%;
+        margin: -6% 0 0;
     }
     
 }
